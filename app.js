@@ -10,10 +10,10 @@ App({
 
     wx.BaaS.auth.loginWithWechat().then(user => {
       // save user data to globalData
-      this.globalData.userInfo = user;
+      this.globalData.userInfo = user.toJSON();
       // save user data to Phone Storage,
       // two params: (key, data)
-      wx.setStorageSync('userInfo', user);
+      wx.setStorageSync('userInfo', user.toJSON());
       console.log('logged in from app.js', user);
     }, err => {
       console.log('fail login');

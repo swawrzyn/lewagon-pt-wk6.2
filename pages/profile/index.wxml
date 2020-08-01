@@ -18,6 +18,10 @@
     <view class="get-phone">
         <button type="primary" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">Add Phone</button>
     </view>
+    <view class="user-likes" style="margin-top: 25rpx">
+    Likes: {{currentUser.likes}}
+    <button type="warn" ontap="addLike">Add a Like</button>
+    </view>
 </view>
 
 
