@@ -1,0 +1,79 @@
+.title-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 50rpx 0;
+}
+
+.title-box .name {
+    font-size: 56rpx;
+    font-weight: bold;
+}
+
+.meals {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 30rpx 0;
+}
+
+.meals .meal {
+    margin: 20rpx 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+.meal .left {
+    width: 75%;
+}
+
+.left .name {
+    font-weight: bold;
+    font-size: 48rpx;
+}
+
+.meal .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+}
+
+.right .price {
+    font-weight: bold;
+    font-size: 36rpx;
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.reviews .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40rpx;
+}
+
+.review-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 95%;
+    padding: 0 20rpx;
+}
+
+.review-items .content {
+    width: 100%;
+    padding: 25rpx;
+}

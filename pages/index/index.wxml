@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view class="restaurants">
+    <view wx:for="{{restaurants}}" class="restaurant" wx:for-item="r" data-id="{{r.id}}" bindtap="toRestaurant">
+        <view class="title">{{r.name}}</view>
+        <view class="desc">{{r.description}}</view>
+    </view>
+</view>

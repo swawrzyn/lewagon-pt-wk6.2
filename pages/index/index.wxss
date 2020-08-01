@@ -1,0 +1,25 @@
+/* pages/index/index.wxss */
+
+.restaurants {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.restaurant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1rpx solid black;
+    width: 100%;
+    margin: 20rpx;
+    height: 150rpx;
+}
+
+.restaurant .title {
+    font-size: 36rpx;
+    font-weight: bold;
+}
